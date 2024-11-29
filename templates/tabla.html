@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/table.css">
+    <title> Lista </title>
+</head>
+
+<body>
+    <header>
+        <h1>Translate</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html"> Inicio </a></li>
+            </ul>
+            <ul>
+                <li><a href="templates/tabla.html">Lista</a></li>
+            </ul>
+            <ul>
+                <li><a href="add_word.html">Agregar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="titulo">Dictionary</h2>
+    <section class="tabla">
+        <div class="categorias">
+            <button class="botonCategoria" id="animals">Animals</button>
+            <button class="botonCategoria" id="fruits">Fruits</button>
+            <button class="botonCategoria" id="colors">Colors</button>
+            <button class="botonCategoria" id="physical_descriptions">Physical Descriptions</button>
+            <button class="botonCategoria" id="skills">Skills</button>
+            <button class="botonCategoria" id="verbs">Verbs</button>
+        </div>
+        <table class="tablaPalabras">
+            <thead>
+                <tr>
+                    <th>Inglés</th>
+                    <th>Español</th>
+                    <th>Ejemplo</th>
+                </tr>
+            </thead>
+            <tbody id="listaPalabras">
+            </tbody>
+        </table>
+    </section>
+    <script type="module" src="../Scripts/lista.js"></script>
+    <footer>Realizado por: Juan David Saavedra Gomez - Lenis Alfonso Rocio Castillo</footer>
+</body>
+
+</html>

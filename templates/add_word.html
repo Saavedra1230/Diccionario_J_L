@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <h1>Translate</h1>
+            <nav>
+                <ul>
+                    <li><a href="../index.html"> Inicio </a></li>
+                </ul>
+                <ul>
+                    <li><a href="tabla.html">Lista</a></li>
+                </ul>
+                <ul>
+                    <li><a href="add_word.html">Agregar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="titulo_2">Agregar nueva palabra</h1>
+        <div class="form-container">
+            <form id="add-word-form"> <select id="category-select">
+                    <option value="animals">Animals</option>
+                    <option value="fruits">Fruits</option>
+                    <option value="colors">Colors</option>
+                    <option value="physical_descriptions">Physical Descriptions</option>
+                    <option value="skills">Skills</option>
+                    <option value="verbs">Verbs</option>
+                </select>
+                <input type="text" id="english-word" placeholder="English" required>
+                <input type="text" id="spanish-word" placeholder="Spanish" required>
+                <input type="text" id="example" placeholder="Ejemplo" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+        <script type="module" src="../Scripts/new_word.js"></script>
+        <footer>Realizado por: Juan David Saavedra Gomez - Lenis Alfonso Rocio Castillo</footer>
+    </body>
+
+</html>

@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 240, 230);
+}
+
+.tittle {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: yellow;
+    font-size: 1.3rem;
+    background-color: purple;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: ui-monospace;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+    background: rgb(187, 61, 187);
+    box-shadow: opx 0px 0px 0px rgba(0, 0, 0);
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+form {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 13.56%;
+}
+
+#palabras {
+    display: flex;
+    gap: 30px;
+}
+
+#traduccion {
+    height: 34px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid purple;
+    display: flex;
+    align-items: center;
+}
+
+.resultados {
+    display: contents;
+    gap: 30px;
+}
+
+#ejemplo {
+    height: 95px;
+    width: 300px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 4px;
+    border: none;
+    width: 78px;
+    height: 23px;
+    display: flex;
+    background-color: purple;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    height: 34px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid purple;
+    background-color: transparent;
+}
+
+select {
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: transparent;
+}
+
+.ejemplo {
+    height: 60px;
+    padding: 10px;
+    border: 1px solid purple;
+}
+
+
+#listaPalabras li {
+    list-style: none;
+    margin: 5px;
+}
+
+footer {
+    background-color: purple;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    margin-top: auto;
+}
+
+.titulo_2{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 15px;
+    color: purple;
+    padding-top: 15px;
+}
